@@ -1,4 +1,4 @@
-import PlayerName from "../../../components/PlayerName";
+import PlayerName from '../../components/PlayerName';
 import "./styles.css";
 
 
