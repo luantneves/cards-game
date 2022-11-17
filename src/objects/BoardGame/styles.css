@@ -5,5 +5,5 @@
     justify-items: center;
     flex-wrap: wrap;
     gap: 20px;
-
+    perspective: 400px;
 }
