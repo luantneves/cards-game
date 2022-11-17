@@ -2,10 +2,23 @@ import './src/styles/elements/base.css';
 import './src/styles/generic/reset.css';
 import './src/styles/settings/colors.css';
 import BoardGame from './src/styles/objects/BoardGame';
+import PlayerName from './src/components/PlayerName';
 
 
 const $root = document.querySelector('#root');
 
-const $htmlBoardGame = BoardGame(6);
+//const $htmlBoardGame = BoardGame(6);
+//const $htmlPlayerName = PlayerName();
 
-$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
+$root.insertAdjacentHTML(
+    
+    "beforeend", 
+    `   
+        ${PlayerName("Player 1")}
+        ${PlayerName("Player 2")}
+        ${BoardGame(6)}
+    
+    `
+    
+
+);
