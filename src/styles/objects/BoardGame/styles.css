@@ -1,0 +1,9 @@
+.board-game{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}

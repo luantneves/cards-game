@@ -5,6 +5,7 @@ import BoardGame from './src/styles/objects/BoardGame';
 
 
 const $root = document.querySelector('#root');
-const $htmlBoardGame = BoardGame(12);
+
+const $htmlBoardGame = BoardGame(6);
 
 $root.insertAdjacentHTML("beforeend", $htmlBoardGame);
