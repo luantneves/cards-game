@@ -11,7 +11,7 @@ export default function ScoreBoard(){
             ${PlayerName("Player 1")}
             ${PlayerScore(1)}
             ${VsPlayer()}
-            ${PlayerScore()}
+            ${PlayerScore(3)}
             ${PlayerName("Player 2")}
         </header>
     `;
